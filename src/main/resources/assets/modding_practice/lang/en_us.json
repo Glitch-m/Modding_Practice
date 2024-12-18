@@ -1,0 +1,30 @@
+{
+  "item.modding_practice.debris": "Debris",
+  "item.modding_practice.ruby": "Ruby",
+  "item.modding_practice.sapphire": "Sapphire",
+  "item.modding_practice.peridot": "Peridot",
+  "item.modding_practice.green_apple": "Green Apple",
+  "item.modding_practice.ore_detector": "Ore detector",
+
+  "block.modding_practice.debris_block": "Debris Block",
+  "block.modding_practice.ruby_block": "Ruby Block",
+  "block.modding_practice.sapphire_block": "Sapphire Block",
+  "block.modding_practice.peridot_block": "Peridot Block",
+  "block.modding_practice.sound_block": "Sound Block",
+  "block.modding_practice.ruby_ore": "Ruby Ore",
+  "block.modding_practice.sapphire_ore": "Sapphire Ore",
+  "block.modding_practice.peridot_ore": "Peridot Ore",
+  "block.modding_practice.deepslate_debris_ore":"Deepslate Debris Ore",
+  "block.modding_practice.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.modding_practice.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.modding_practice.deepslate_peridot_ore": "Deepslate Peridot Ore",
+
+
+  "creativetab.new_minerals_tab": "New Minerals Tab",
+  "creativetab.modded_ingredients_tab": "Modded ingredients",
+  "creativetab.mod_food_tab": "Custom Food",
+  "creativetab.modded_natural_blocks": "Modded Natural Blocks",
+  "creativetab.modded_building_blocks": "Modded Building Blocks",
+
+  "item.modding_practice.ore_detector.no_valuable_ore_found": "No valuable ores found"
+}

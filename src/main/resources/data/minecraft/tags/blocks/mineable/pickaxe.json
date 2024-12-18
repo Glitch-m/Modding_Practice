@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values" : [
+    "modding_practice:deepslate_debris_ore",
+    "modding_practice:debris_block",
+    "modding_practice:ruby_ore",
+    "modding_practice:deepslate_ruby_ore",
+    "modding_practice:ruby_block",
+    "modding_practice:sapphire_ore",
+    "modding_practice:deepslate_sapphire_ore",
+    "modding_practice:sapphire_block",
+    "modding_practice:peridot_ore",
+    "modding_practice:deepslate_peridot_ore",
+    "modding_practice:peridot_block"
+  ]
+}

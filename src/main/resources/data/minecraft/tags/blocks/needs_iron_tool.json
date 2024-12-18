@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values" : [
+    "modding_practice:debris_block",
+    "modding_practice:deepslate_debris_ore",
+    "modding_practice:deepslate_peridot_ore",
+    "modding_practice:peridot_ore",
+    "modding_practice:peridot_block"
+  ]
+}

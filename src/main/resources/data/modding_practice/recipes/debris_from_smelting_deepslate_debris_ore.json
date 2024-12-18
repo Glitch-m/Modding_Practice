@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 560,
+  "experience": 4.0,
+  "group": "debris",
+  "ingredient": {
+    "item": "modding_practice:deepslate_debris_ore"
+  },
+  "result": "modding_practice:debris"
+}

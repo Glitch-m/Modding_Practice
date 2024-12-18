@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "modding_practice:debris_block"
+    }
+  ],
+  "result": {
+    "item": "modding_practice:debris",
+    "count": 9
+  }
+}

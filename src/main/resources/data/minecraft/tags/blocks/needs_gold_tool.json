@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values" : [
+    "minecraft:iron_ore",
+    "minecraft:gold_ore",
+    "modding_practice:sapphire_ore",
+    "modding_practice:deepslate_sapphire_ore",
+    "modding_practice:sapphire_block"
+  ]
+}

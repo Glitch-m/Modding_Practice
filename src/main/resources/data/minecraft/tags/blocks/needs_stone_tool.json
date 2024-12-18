@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values" : [
+    "modding_practice:ruby_ore",
+    "modding_practice:deepslate_ruby_ore",
+    "modding_practice:ruby_block"
+  ]
+}

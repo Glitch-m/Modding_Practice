@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 50,
+  "experience": 1.5,
+  "group": "sapphire",
+  "ingredient": {
+    "item": "modding_practice:sapphire_ore"
+  },
+  "result": "modding_practice:sapphire"
+}

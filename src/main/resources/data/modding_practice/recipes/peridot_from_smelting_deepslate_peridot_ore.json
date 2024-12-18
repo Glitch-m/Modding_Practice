@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 275,
+  "experience": 3.50,
+  "group": "peridot",
+  "ingredient": {
+    "item": "modding_practice:deepslate_peridot_ore"
+  },
+  "result": "modding_practice:peridot"
+}

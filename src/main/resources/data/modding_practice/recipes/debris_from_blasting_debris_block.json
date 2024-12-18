@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 60,
+  "experience": 2.0,
+  "group": "debris",
+  "ingredients": [
+    {
+      "item": "modding_practice:debris_block"
+    }
+  ],
+  "result": {
+    "item": "modding_practice:debris",
+    "count": 4
+  }
+}

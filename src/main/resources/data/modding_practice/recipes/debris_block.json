@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "modding_practice:debris"
+    }
+  },
+  "result": {
+    "item": "modding_practice:debris_block"
+  }
+}
