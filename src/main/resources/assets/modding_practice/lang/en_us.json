@@ -26,5 +26,9 @@
   "creativetab.modded_natural_blocks": "Modded Natural Blocks",
   "creativetab.modded_building_blocks": "Modded Building Blocks",
 
-  "item.modding_practice.ore_detector.no_valuable_ore_found": "No valuable ores found"
+  "item.modding_practice.ore_detector.no_valuable_ore_found": "No valuable ores found",
+
+  "tooltip.modding_practice.ore_detector.tooltip.shift": "Right Click on Blocks to find the Valuables",
+  "tooltip.modding_practice.ore_detector.tooltip": "Press §eSHIFT§r for more information",
+  "tooltip.modding_practice.sound_block.tooltip": "plays minecraft music at high pitch when right clicked"
 }

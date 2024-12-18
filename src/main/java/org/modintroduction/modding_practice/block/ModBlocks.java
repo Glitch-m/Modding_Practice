@@ -25,7 +25,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Modding_practice.MOD_ID);
 
     public static final RegistryObject<Block> DEBRIS_BLOCK = registerBlock("debris_block",
-            () -> new FuelBlock(Block.Properties.of().mapColor(MapColor.COLOR_BROWN).instrument(NoteBlockInstrument.BASS)
+            () -> new Block(Block.Properties.of().mapColor(MapColor.COLOR_BROWN).instrument(NoteBlockInstrument.BASS)
                     .requiresCorrectToolForDrops().strength(9.0F, 10.0F).sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
