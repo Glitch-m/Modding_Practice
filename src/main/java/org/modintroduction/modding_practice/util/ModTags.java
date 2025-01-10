@@ -20,12 +20,13 @@ public class ModTags {
     }
 
     public static class Blocks {
-        public static final TagKey<Block> ORE_DETECTOR_VALUE = tag("ORE_DETECTOR_VALUE");
+        public static final TagKey<Block> ORE_DETECTOR_VALUE = tag("ore_detector_value");
+
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(Modding_practice.MOD_ID, name));
         }
 
-        private static TagKey<Block> Forgetag(String name) {
+        private static TagKey<Block> forgeTag(String name) {
             return BlockTags.create(new ResourceLocation("forge", name));
         }
     }

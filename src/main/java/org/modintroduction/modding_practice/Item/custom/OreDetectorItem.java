@@ -32,7 +32,7 @@ public class OreDetectorItem extends Item {
             Player player = pContext.getPlayer();
             boolean foundBlock = false;
 
-            for(int i = 0; i <= positionClicked.getY() + 64; i++) {
+            for(int i = -64; i <= positionClicked.getY() + 64; i++) {
                 BlockState blockState = pContext.getLevel().getBlockState(positionClicked.below(i));
 
                  if(isValuableBlock(blockState)) {
@@ -42,7 +42,7 @@ public class OreDetectorItem extends Item {
                      break;
                  }
             }
-            for(int i = 0; i <= positionClicked.getX() + 64; i++) {
+            for(int i = -64; i <= positionClicked.getX() + 64; i++) {
                 BlockState blockState = pContext.getLevel().getBlockState(positionClicked.east(i));
 
                  if(isValuableBlock(blockState)) {
@@ -51,6 +51,16 @@ public class OreDetectorItem extends Item {
 
                      break;
                  }
+            }
+            for(int i = -64; i <= positionClicked.getZ() + 64; i++) {
+                BlockState blockState = pContext.getLevel().getBlockState(positionClicked.east(i));
+
+                if(isValuableBlock(blockState)) {
+                    outputValuableCoordinates(positionClicked.east(i), player, blockState.getBlock());
+                    foundBlock = true;
+
+                    break;
+                }
             }
             if(!foundBlock) {
                 outputValuableFound(player);

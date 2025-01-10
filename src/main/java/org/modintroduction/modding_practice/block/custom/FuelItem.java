@@ -10,11 +10,11 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import org.jetbrains.annotations.Nullable;
 import org.modintroduction.modding_practice.block.ModBlocks;
 
-public class FuelItem extends BlockItem {
-    private final int burnTime;
+public class FuelItem extends Item {
+    private int burnTime = 0;
 
     public FuelItem(Properties pProperties, int burnTime) {
-        super(ModBlocks.DEBRIS_BLOCK.get(), pProperties);
+        super(pProperties);
         this.burnTime = burnTime;
     }
     @Override
