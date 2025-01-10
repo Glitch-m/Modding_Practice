@@ -8,6 +8,7 @@ import net.minecraftforge.registries.RegistryObject;
 import org.modintroduction.modding_practice.Item.custom.ModFoodProperties;
 import org.modintroduction.modding_practice.Item.custom.OreDetectorItem;
 import org.modintroduction.modding_practice.Modding_practice;
+import org.modintroduction.modding_practice.block.ModBlocks;
 import org.modintroduction.modding_practice.block.custom.FuelItem;
 
 import static net.minecraft.world.item.Items.registerItem;

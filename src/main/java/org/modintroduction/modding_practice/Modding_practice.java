@@ -15,6 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.modintroduction.modding_practice.Item.CustomModTabs;
 import org.modintroduction.modding_practice.Item.ModItems;
 import org.modintroduction.modding_practice.block.ModBlocks;
+import org.modintroduction.modding_practice.block.custom.FuelBlock;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file

@@ -17,7 +17,6 @@ import net.minecraftforge.registries.RegistryObject;
 import org.modintroduction.modding_practice.Item.ModItems;
 import org.modintroduction.modding_practice.Modding_practice;
 import org.modintroduction.modding_practice.block.custom.FuelBlock;
-import org.modintroduction.modding_practice.block.custom.FuelItem;
 import org.modintroduction.modding_practice.block.custom.SoundBlock;
 
 import java.util.function.Supplier;
@@ -27,8 +26,10 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Modding_practice.MOD_ID);
 
     public static final RegistryObject<Block> DEBRIS_BLOCK = registerBlock("debris_block",
-            () -> new FuelBlock(Block.Properties.of().mapColor(MapColor.COLOR_BROWN).instrument(NoteBlockInstrument.BASEDRUM)
-                    .requiresCorrectToolForDrops().strength(9.0F, 10.0F).sound(SoundType.STONE)));
+            () -> {
+                return new FuelBlock(Block.Properties.of().mapColor(MapColor.COLOR_BROWN).instrument(NoteBlockInstrument.BASEDRUM)
+                        .requiresCorrectToolForDrops().strength(9.0F, 10.0F).sound(SoundType.STONE), 24000);
+            });
 
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.EMERALD_BLOCK)));
