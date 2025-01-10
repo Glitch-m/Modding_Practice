@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
+import org.modintroduction.modding_practice.util.ModTags;
 
 import java.util.List;
 
@@ -77,11 +78,6 @@ public class OreDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState blockState) {
-        return blockState.is(Blocks.COAL_ORE) || blockState.is(Blocks.COPPER_ORE) || blockState.is(Blocks.IRON_ORE) || blockState.is(Blocks.GOLD_ORE)
-                || blockState.is(Blocks.DIAMOND_ORE) || blockState.is(Blocks.REDSTONE_ORE) || blockState.is(Blocks.EMERALD_ORE)
-                || blockState.is(Blocks.LAPIS_ORE) || blockState.is(Blocks.DEEPSLATE_COAL_ORE) || blockState.is(Blocks.DEEPSLATE_COPPER_ORE)
-                || blockState.is(Blocks.DEEPSLATE_IRON_ORE) || blockState.is(Blocks.DEEPSLATE_GOLD_ORE) || blockState.is(Blocks.DEEPSLATE_DIAMOND_ORE)
-                || blockState.is(Blocks.DEEPSLATE_REDSTONE_ORE) || blockState.is(Blocks.DEEPSLATE_EMERALD_ORE) || blockState.is(Blocks.DEEPSLATE_LAPIS_ORE)
-                || blockState.is(Blocks.ANCIENT_DEBRIS);
+        return blockState.is(ModTags.Blocks.ORE_DETECTOR_VALUE);
     }
 }
